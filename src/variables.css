@@ -1,6 +1,6 @@
 :root {
     --white: rgba(255, 255, 255, 0.6);
-    --background-color: #E8EEEF;
+    --background-color: #e5e9ea;
     --input-border: #E5E5E5;
     --label-color: #0077b6;
     --button-color: #0077b6;
@@ -10,4 +10,5 @@
     --text-white:#fff;
     --text-blue: #0077b6;
     --table-header: #023047;
+    --background-color2:#c8cfd0;
 }
