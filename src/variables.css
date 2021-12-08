@@ -1,0 +1,13 @@
+:root {
+    --white: rgba(255, 255, 255, 0.6);
+    --background-color: #E8EEEF;
+    --input-border: #E5E5E5;
+    --label-color: #0077b6;
+    --button-color: #0077b6;
+    --button-cancel: #e5e5e5;
+    --error:#da1e37;
+    --text-dark: #293241;
+    --text-white:#fff;
+    --text-blue: #0077b6;
+    --table-header: #023047;
+}

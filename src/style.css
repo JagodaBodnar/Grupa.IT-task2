@@ -1,0 +1,125 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #e5e9ea 0%, #c8cfd0 100%);
+}
+
+h2 {
+    font-weight: 600;
+    font-style: italic;
+    color: var(--text-blue);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.info {
+    display: none;
+    margin: 20px 0;
+}
+
+form {
+    width: 30vw;
+    min-height: 30vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: var(--white);
+    padding: 10px;
+}
+
+.hide {
+    display: none;
+}
+
+.button_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+label {
+    color: var(--label-color);
+    margin-bottom: 10px;
+    font-weight: 500;
+
+}
+
+.error {
+    color: var(--error);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+input, select {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--input-border);
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
+}
+
+.show {
+    display: block;
+}
+
+select {
+    cursor: pointer;
+}
+
+button {
+    background-color: var(--button-color);
+    width: 200px;
+    border: none;
+    outline: none;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: var(--text-white);
+    font-weight: 500;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.cancel {
+    background-color: var(--button-cancel);
+    color: var(--text-dark)
+}
+
+table {
+    margin-top: 50px;
+    width: 80%;
+    text-align: center;
+}
+
+th {
+    background-color: var(--table-header);
+    font-weight: 600;
+    color: var(--text-white)
+}
+
+tr:nth-child(even) {
+    background: var(--white);
+}
+
+tr:nth-child(odd) {
+
+}

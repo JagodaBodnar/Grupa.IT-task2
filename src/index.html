@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <h2>Create your own book list.</h2>
+    <form id="add_book_form" class="form" novalidate>
+        <label for="book_title">Book title:</label>
+        <input type="text" name="title" id="book_title"/>
+        <div id="book_title_error" class="error"></div>
+        <label for="author">Author:</label>
+        <input type="text" name="author" id="author"/>
+        <div id="author_error" class="error"></div>
+        <label for="priority">Priority</label>
+        <input type="number" name="priority" id="priority" min="1" max="5"/>
+        <div id="priority_error" class="error"></div>
+        <label for="category">Category:</label>
+        <select id="category">
+            <option value="Fantasy">Fantasy</option>
+            <option value="Detective and mystery">Detective and mystery</option>
+            <option value="Comic book and Graphic Novel">Comic book and Graphic Novel</option>
+        </select>
+        <div class="button_container">
+            <button id="submit_button" type="submit">Add</button>
+            <button id="cancel_button" class="cancel">Cancel</button>
+        </div>
+    </form>
+    <div id="info" class="info">Currently your library is empty. Use form above to add new book. </div>
+    <table id="table">
+        <thead>
+        <tr>
+            <th>Book title</th>
+            <th>Author</th>
+            <th>Priority</th>
+            <th>Category</th>
+        </tr>
+        </thead>
+        <tbody id="table_body">
+        </tbody>
+    </table>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
